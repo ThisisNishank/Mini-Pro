@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editkaro.in | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Editkaro.in</h1>
+    <nav>
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="short">Short-form</button>
+      <button class="filter-btn" data-category="long">Long-form</button>
+      <button class="filter-btn" data-category="gaming">Gaming</button>
+      <button class="filter-btn" data-category="football">Football</button>
+      <button class="filter-btn" data-category="ads">eCommerce Ads</button>
+      <button class="filter-btn" data-category="anime">Anime</button>
+    </nav>
+  </header>
+
+  <section class="portfolio">
+    <div class="card" data-category="short">
+      <video src="shortvid.mp4" muted></video>
+      <h3>Short-form Video</h3>
+    </div>
+
+    <div class="card" data-category="long">
+      <video src="longvid.mp4" muted></video>
+      <h3>Long-form Video</h3>
+    </div>
+
+    <div class="card" data-category="gaming">
+      <video src="gaming.mp4" muted></video>
+      <h3>Gaming Video</h3>
+    </div>
+
+    <div class="card" data-category="football">
+      <video src="football.mp4" muted></video>
+      <h3>Football Edit</h3>
+    </div>
+
+    <div class="card" data-category="ads">
+      <video src="e-comm ad.mp4" muted></video>
+      <h3>eCommerce Ad</h3>
+    </div>
+
+    <div class="card" data-category="anime">
+      <video src="anime.mp4" muted></video>
+      <h3>Anime Video</h3>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span id="close">&times;</span>
+    <video id="lightboxVideo" controls autoplay></video>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
